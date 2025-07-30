@@ -64,6 +64,16 @@
         .stat-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
         .stat-number { font-size: 36px; font-weight: 800; color: var(--c-primary); margin-bottom: 10px; }
         .stat-label { font-size: 16px; color: var(--c-text-mid); font-weight: 600; }
+	.section-title { text-align: center; font-size: 36px; font-weight: 700; color: var(--c-text-dark); margin-bottom: 50px; position: relative; }
+        .section-title::after { content: ''; position: absolute; bottom: -15px; left: 50%; transform: translateX(-50%); width: 80px; height: 4px; background: linear-gradient(90deg, var(--c-primary), var(--c-purple)); border-radius: 2px; }
+        .grid-spacing { gap: 30px; margin-bottom: 60px; }
+        .card-header { display: flex; align-items: center; margin-bottom: 20px; }
+        .card-icon { width: 50px; height: 50px; border-radius: var(--radius-md); font-size: 24px; margin-right: 15px; color: white; @extend .flex-center; }
+        .card-title { font-size: 20px; font-weight: 700; color: var(--c-text-dark); }
+        .card-content { color: var(--c-text-mid); line-height: 1.6; margin-bottom: 20px; }
+        .icon-green { background: linear-gradient(135deg, var(--c-green) 0%, var(--c-green-dark) 100%); }
+        .icon-orange { background: linear-gradient(135deg, var(--c-orange) 0%, var(--c-orange-dark) 100%); }
+
 	</head>
 	<body>
         	

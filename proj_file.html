@@ -43,6 +43,15 @@
         .btn-primary { background: linear-gradient(135deg, var(--c-primary) 0%, var(--c-primary-dark) 100%); }
         .btn-primary:hover { box-shadow: 0 8px 25px rgba(var(--c-primary), .3); transform: translateY(-2px); }
         .bg-gradient-blue { background: linear-gradient(135deg, var(--c-primary) 0%, var(--c-primary-dark) 100%); }
+	.header { background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 50%, #1d4ed8 100%); color: white; padding: 20px 40px; position: relative; overflow: hidden; box-shadow: var(--shadow-sm); }
+        .header::before { content: ''; position: absolute; top:0; left:0; right:0; bottom:0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="g" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23g)"/></svg>'); opacity: 0.5; z-index: 0;}
+        .nav-container { display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 1; }
+        .logo h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.025em; text-shadow: 0 2px 4px rgba(0,0,0,.1); }
+        .logo .tagline { font-size: 12px; opacity: 0.85; margin-top: 2px; }
+        .nav-menu a { color: white; font-weight: 500; font-size: 14px; padding: 8px 16px; border-radius: 20px; transition: all .3s ease; }
+        .nav-menu a:hover { background: rgba(255,255,255,.15); transform: translateY(-1px); }
+        .login-btn { background: rgba(255,255,255,.15)!important; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,.2); font-weight: 600; padding: 10px 20px!important; }
+	
 	</head>
 	<body>
         	

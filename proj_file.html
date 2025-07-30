@@ -73,7 +73,21 @@
         .card-content { color: var(--c-text-mid); line-height: 1.6; margin-bottom: 20px; }
         .icon-green { background: linear-gradient(135deg, var(--c-green) 0%, var(--c-green-dark) 100%); }
         .icon-orange { background: linear-gradient(135deg, var(--c-orange) 0%, var(--c-orange-dark) 100%); }
-
+	.info-item { display: flex; align-items: center; gap: 15px; }
+        .info-icon { width: 40px; height: 40px; border-radius: 10px; font-size: 18px; color: white; @extend .flex-center; @extend .bg-gradient-blue; }
+        .info-label { font-size: 12px; color: var(--c-text-mid); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+        .info-value { font-size: 16px; color: var(--c-text-dark); font-weight: 600; }
+        .doctor-card { border-radius: var(--radius-md); padding: 20px; text-align: center; background: linear-gradient(135deg, var(--c-bg-light) 0%, #f1f5f9 100%); border: 1px solid var(--c-bg-mid); transition: transform .3s ease, box-shadow .3s ease; }
+        .doctor-card:hover { transform: translateY(-3px); box-shadow: 0 10px 25px rgba(0,0,0,.1); }
+        .doctor-avatar { width: 60px; height: 60px; border-radius: var(--radius-full); font-size: 24px; margin: 0 auto 15px; color: white; @extend .flex-center; @extend .bg-gradient-blue; }
+        .doctor-name { font-size: 16px; font-weight: 700; color: var(--c-text-dark); margin-bottom: 5px; }
+        .doctor-specialty { font-size: 14px; color: var(--c-text-mid); font-weight: 500; }
+        .footer { background: #1e293b; color: white; padding: 40px; text-align: center; }
+        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-bottom: 30px; }
+        .footer-section h4 { margin-bottom: 15px; color: var(--c-primary); }
+        .footer-section p, .footer-section a { color: var(--c-text-light); margin-bottom: 8px; display: block; }
+        .footer-section a:hover { color: white; }
+        hr { border-color: #374151; margin: 20px 0; }
 	</head>
 	<body>
         	

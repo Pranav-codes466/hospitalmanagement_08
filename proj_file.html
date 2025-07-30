@@ -59,6 +59,11 @@
         .cta-buttons { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
         .cta-btn { padding: 16px 32px; border-radius: 25px; background: linear-gradient(135deg, var(--c-red) 0%, var(--c-red-dark) 100%); }
         .cta-btn:hover { box-shadow: 0 12px 35px rgba(var(--c-red), .4); }
+	.stats { background: white; padding: 60px 40px; gap: 40px; box-shadow: 0 -10px 40px rgba(0,0,0,.05); @extend .grid-col-4; }
+        .stat-card { text-align: center; padding: 30px 20px; border-radius: var(--radius-lg); background: linear-gradient(135deg, var(--c-bg-light) 0%, #f1f5f9 100%); border: 1px solid var(--c-bg-mid); transition: transform .3s ease, box-shadow .3s ease; }
+        .stat-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+        .stat-number { font-size: 36px; font-weight: 800; color: var(--c-primary); margin-bottom: 10px; }
+        .stat-label { font-size: 16px; color: var(--c-text-mid); font-weight: 600; }
 	</head>
 	<body>
         	
